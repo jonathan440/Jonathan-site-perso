@@ -1,0 +1,48 @@
+.menu {
+
+    .logo {}
+
+    width: 250px;
+    min-height: 100vh;
+    background-color: rgb(73, 67, 67);
+    border-right: groove;
+    border-width: 4px;
+
+    nav {
+
+        font-size: 1.6rem;
+        color: $white;
+
+        ul {
+
+            margin-left: 23%;
+
+
+            li {
+                margin-top: 80px;
+            }
+
+
+            a {
+
+                text-decoration: none;
+                border-radius: 10px;
+                width: 150px;
+
+                &:visited {
+                    text-decoration: none;
+                    color: $white;
+                }
+
+                &:hover {
+                    color: orangered;
+
+                }
+
+            }
+
+            a.nav-active {}
+
+        }
+    }
+}

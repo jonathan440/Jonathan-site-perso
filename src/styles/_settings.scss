@@ -1,0 +1,35 @@
+$font-1: "font-1", sans-serif;
+
+$colorB: rgb(100, 100, 100);
+$black: #071244;
+$white: rgb(238, 238, 238);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-1;
+    //color: $white;
+}
+
+body {
+    background-color: black;
+
+    h1,
+    h2 {
+        color: $white;
+        padding-bottom: 30px;
+    }
+
+
+
+}
+
+li {
+    list-style: none;
+}
+
+.home-page {
+    display: flex;
+
+}
