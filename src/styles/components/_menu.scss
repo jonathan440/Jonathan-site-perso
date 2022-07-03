@@ -1,12 +1,15 @@
 .menu {
+    position: fixed;
 
     .logo {}
 
     width: 250px;
     min-height: 100vh;
-    background-color: rgb(73, 67, 67);
-    border-right: groove;
-    border-width: 4px;
+    background-color: rgb(48, 44, 44);
+    //border-right: groove;
+    //border-width: 4px;
+
+
 
     nav {
 
@@ -14,20 +17,25 @@
         color: $white;
 
         ul {
-
             margin-left: 23%;
 
 
             li {
                 margin-top: 80px;
+
+
             }
 
 
             a {
 
+                transition: color 1s;
+
+
                 text-decoration: none;
                 border-radius: 10px;
                 width: 150px;
+
 
                 &:visited {
                     text-decoration: none;
@@ -35,9 +43,16 @@
                 }
 
                 &:hover {
-                    color: orangered;
+                    color: red;
+
+                    li {
+                        margin-left: 7px;
+                        transition: margin-left 0.8s;
+                    }
 
                 }
+
+
 
             }
 
@@ -45,4 +60,5 @@
 
         }
     }
+
 }

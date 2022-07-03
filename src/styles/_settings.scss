@@ -4,16 +4,20 @@ $colorB: rgb(100, 100, 100);
 $black: #071244;
 $white: rgb(238, 238, 238);
 
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: $font-1;
-    //color: $white;
+
 }
 
 body {
     background-color: black;
+    color: $white;
+
+
 
     h1,
     h2 {
@@ -29,7 +33,11 @@ li {
     list-style: none;
 }
 
-.home-page {
+
+
+.home-page,
+.cv-container {
     display: flex;
+
 
 }
