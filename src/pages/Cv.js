@@ -1,8 +1,10 @@
 import React from 'react';
 import Menu from '../components/Menu';
 
+
 const Cv = () => {
     return (
+
         <div className="cv-container">
 
             <Menu />
@@ -15,7 +17,11 @@ const Cv = () => {
                     <p>Concevoir du contenu est pour moi plus q'un métier, c'est une passion.</p>
 
                     <div className="btn-cv">
-                        <input type="submit" value="cv" />
+
+                        <a href="../assets/pdf/cv.pdf" download>
+                            <input type="submit" value="cv" />
+                        </a>
+
                     </div>
                 </div>
 

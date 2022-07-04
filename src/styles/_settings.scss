@@ -1,8 +1,10 @@
 $font-1: "font-1", sans-serif;
 
-$colorB: rgb(100, 100, 100);
 $black: #071244;
 $white: rgb(238, 238, 238);
+$menu: #27313D;
+$bg: #343D47;
+
 
 
 * {
@@ -10,23 +12,17 @@ $white: rgb(238, 238, 238);
     padding: 0;
     box-sizing: border-box;
     font-family: $font-1;
-
 }
 
 body {
-    background-color: black;
+    background-color: $bg;
     color: $white;
-
-
 
     h1,
     h2 {
         color: $white;
         padding-bottom: 30px;
     }
-
-
-
 }
 
 li {
@@ -34,10 +30,7 @@ li {
 }
 
 
-
 .home-page,
 .cv-container {
     display: flex;
-
-
 }

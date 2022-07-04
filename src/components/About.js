@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const About = () => {
     const metiers = ["Développeur web",
@@ -19,7 +20,12 @@ const About = () => {
                 <h1>Je suis un <span className='span'>{job()}</span>|</h1>
                 <h2>Diplômé d'un master en informatique, je suis aujourd hui
                     un développeur full stack, je m'intéresse à tout type de développement</h2>
-                <input type="submit" value="Plus sur moi" />
+
+
+                <NavLink to="/cv">
+                    <input type="submit" value="Plus sur moi" />
+                </NavLink>
+
             </div>
 
         </div>
