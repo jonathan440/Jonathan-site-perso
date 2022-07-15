@@ -28,15 +28,22 @@
 
         .formExp {
 
+
             .formations,
             .experiences {
                 position: relative;
                 margin: 0 auto;
-                margin-top: 5%;
+                margin-top: 10%;
                 padding-top: 50px;
                 width: 90%;
                 background-color: $menu;
                 border-radius: 2%;
+                zoom: 90%;
+
+                &:hover {
+                    zoom: 91%;
+
+                }
 
 
                 h1 {

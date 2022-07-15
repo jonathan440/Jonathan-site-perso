@@ -1,23 +1,21 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
 const About = () => {
+
+
     const metiers = ["Développeur web",
         "Développeur d'application",
         "Développeur fullstack"];
+    const [metier, setMetier] = useState(metiers[0]);
 
-
-    const job = () => {
-        let pos = 0;
-        return (metiers[pos])
-    };
 
     return (
         <div className="about-container">
             <div className="about-contain">
 
-                <h1>Bonjour et bienvenue sur mon site, je m'appelle <span className='span'>CLAIN Jonathan</span> </h1>
-                <h1>Je suis un <span className='span'>{job()}</span>|</h1>
+                <h2>Bonjour et bienvenue sur mon site, je m'appelle <span className='span'>CLAIN Jonathan</span> </h2>
+                <h2>Je suis un <span className='span'>{metier}</span>|</h2>
                 <h2>Diplômé d'un master en informatique, je suis aujourd hui
                     un développeur full stack, je m'intéresse à tout type de développement</h2>
 

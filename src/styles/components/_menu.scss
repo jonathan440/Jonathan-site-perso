@@ -1,13 +1,15 @@
 .menu {
     position: fixed;
-
-    .logo {}
-
+    opacity: 80%;
     width: 250px;
     min-height: 100vh;
     background-color: $menu;
     //border-right: groove;
     //border-width: 4px;
+
+    .logo {}
+
+
 
     nav {
 

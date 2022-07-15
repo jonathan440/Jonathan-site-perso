@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "font-1";
+    src: url(../assets/fonts/Lobster-Regular.ttf);
+}
+
 $font-1: "font-1", sans-serif;
 
 $black: #071244;
@@ -11,15 +16,25 @@ $bg: #343D47;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: $font-1;
+
+    h1 {
+        font-family: $font-1;
+    }
+
 }
 
 body {
-    background-color: $bg;
+    //background-color: $bg;
+
+
+    background: linear-gradient(to left, #cc5333, #23074d);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     color: $white;
 
     h1,
     h2 {
+
         color: $white;
         padding-bottom: 30px;
     }
