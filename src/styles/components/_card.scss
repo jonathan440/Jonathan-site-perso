@@ -1,0 +1,14 @@
+.card {
+    background-color: $bg;
+    width: 350px;
+    height: 400px;
+    margin-top: 15%;
+    margin-left: 10%;
+    text-align: center;
+    opacity: 68%;
+
+    h2,
+    p {
+        padding-top: 25px;
+    }
+}
