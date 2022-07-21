@@ -3,11 +3,24 @@
     height: 100 vh;
 
 
+
+
     .about-contain {
-        position: relative;
-        margin-left: 270px;
-        padding: 50px;
-        top: 40%;
+        text-align: center;
+
+        .logo {
+
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 15%;
+
+        }
+
+        /*position: relative;
+        margin-left: 30%;
+        padding: 50px;*/
+
+
 
         .span {
             color: orangered;
@@ -17,5 +30,8 @@
     h1 {
         color: white;
         padding-bottom: 40px;
+        text-align: center;
+        padding-bottom: 100px;
+
     }
 }

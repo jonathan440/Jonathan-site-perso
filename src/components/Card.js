@@ -6,6 +6,8 @@ const Card = ({ projets }) => { // on récupere l'objet 'projets' qui se trouve 
             <h2>{projets.nom}</h2>
             <img src={projets.image} alt="projet *" />
 
+            <p> <span className='span'>{projets.langage}</span> </p>
+
             <p>{projets.description}</p>
         </div>
     );

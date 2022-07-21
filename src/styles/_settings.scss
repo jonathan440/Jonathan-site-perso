@@ -5,13 +5,13 @@
 
 $font-1: "font-1", sans-serif;
 
+// variables
 $black: #071244;
 $white: rgb(238, 238, 238);
 $menu: #27313D;
 $bg: #343D47;
 
-
-
+// init
 * {
     margin: 0;
     padding: 0;
@@ -24,13 +24,15 @@ $bg: #343D47;
 }
 
 body {
+
+
     //background-color: $bg;
-
-
-    background: linear-gradient(to left, #cc5333, #23074d);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url(../assets/img/bgSite.webp);
+    background-attachment: fixed;
 
     color: $white;
+
+
 
     h1,
     h2 {
@@ -38,14 +40,8 @@ body {
         color: $white;
         padding-bottom: 30px;
     }
-}
 
-li {
-    list-style: none;
-}
-
-
-.home-page,
-.cv-container {
-    display: flex;
+    li {
+        list-style: none;
+    }
 }

@@ -1,9 +1,10 @@
 .cv-container {
+    margin-top: 20%;
 
     .cv-contains {
-        margin-left: 270px; // taille du menu 
         width: 100vw;
         font-size: 1.3em;
+
 
         .info {
             h1 {
@@ -39,6 +40,7 @@
                 background-color: $menu;
                 border-radius: 2%;
                 zoom: 90%;
+
 
                 &:hover {
                     zoom: 91%;

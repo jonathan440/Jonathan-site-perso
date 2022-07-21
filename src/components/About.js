@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import logocj from '../assets/img/logocj.gif'
 
 const About = () => {
 
@@ -12,7 +13,11 @@ const About = () => {
 
     return (
         <div className="about-container">
+
             <div className="about-contain">
+
+                <div className="logo"><img src={logocj} alt="logo" /></div>
+
 
                 <h2>Bonjour et bienvenue sur mon site, je m'appelle <span className='span'>CLAIN Jonathan</span> </h2>
                 <h2>Je suis un <span className='span'>{metier}</span>|</h2>

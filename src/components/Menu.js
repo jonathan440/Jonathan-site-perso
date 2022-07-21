@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { NavLink } from "react-router-dom";
 
+
 const Menu = () => {
     const [isActive, setIsactive] = useState(true);
     const handleClick = () => {
@@ -11,10 +12,6 @@ const Menu = () => {
 
         <div className="menu">
             <div className={isActive ? "menu-active" : ""}>
-
-
-
-                <div className="logo"><img src="#" alt="logo" /></div>
 
 
                 <nav>
