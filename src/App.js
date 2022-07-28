@@ -4,11 +4,27 @@ import Cv from "./pages/Cv";
 import Home from "./pages/Home";
 import Portefolio from "./pages/Portefolio";
 import Contact from "./pages/Contact";
+import { useState, useEffect } from "react";
 
 
 // Navigation, routes ...
 
 function App() {
+
+  /*const [scrollPos, setScrollPos] = useState(0);
+  const handleScroll = () => {
+    const position = window.pageXOffset;
+    setScrollPos(position);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);*/
+
   return (
     <BrowserRouter>
       <Routes>

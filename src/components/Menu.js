@@ -1,16 +1,33 @@
 import React from 'react';
+import { useEffect } from 'react';
 import { useState } from 'react';
 import { NavLink } from "react-router-dom";
 
 
 const Menu = () => {
     const [isActive, setIsactive] = useState(true);
-    const handleClick = () => {
-        isActive ? setIsactive(false) : setIsactive(true);
+
+    // visibilité du menu
+    const [visible, setVisible] = useState(true);
+    const controlMenu = () => {
+        if (window.scrollY > 100) {
+            setVisible(false);
+        }
+        else {
+            setVisible(true);
+        }
     }
+    useEffect(() => {
+        window.addEventListener('scroll', controlMenu);
+        return () => {
+            window.removeEventListener('scroll', controlMenu);
+        }
+    }, [])
+
     return (
 
-        <div className="menu">
+        <div className={visible ? "menu" : "menuHide"}>
+
             <div className={isActive ? "menu-active" : ""}>
 
 

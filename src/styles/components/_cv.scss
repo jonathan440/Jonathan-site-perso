@@ -36,14 +36,15 @@
                 margin: 0 auto;
                 margin-top: 10%;
                 padding-top: 50px;
-                width: 90%;
+                width: 50%;
                 background-color: $menu;
-                border-radius: 2%;
+                border-radius: 1%;
                 zoom: 90%;
 
 
                 &:hover {
                     zoom: 91%;
+                    border-radius: 10%;
 
                 }
 
